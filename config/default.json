@@ -1,0 +1,18 @@
+{
+    "db": {
+        "connectionLimit": 10,
+        "host": "localhost",
+        "database": "test_db",
+        "user": "test_user",
+        "password": "test_password",
+        "port": "32768"
+    },
+    "session": {
+        "secret": "qwerty",
+        "resave": false,
+        "saveUninitialized": true,
+        "cookie": {
+            "maxAge": null
+        }
+    }
+}
